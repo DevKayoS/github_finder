@@ -16,7 +16,7 @@ export function SearchControl({loadUser}: SearchProps){
 
 
   return(
-    <div className="text-2xl mt-10 bg-slate-950/60 w-[500px] flex flex-col items-center p-3 rounded-xl shadow-lg shadow-black mb-20">
+    <div className="text-2xl mt-2 bg-slate-950/60 w-[500px] flex flex-col items-center p-3 rounded-xl shadow-lg shadow-black  mb-5">
       <h2>Busque por um usuário: </h2>
       <p className="text-xl text-slate-50/50 mb-8">Conheça seus melhores repositórios</p>
       <div className="flex items-center gap-3 mb-4">
