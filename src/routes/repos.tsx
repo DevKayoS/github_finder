@@ -1,6 +1,5 @@
 import {useState, useEffect} from "react"
 import {  useParams } from "react-router-dom"
-import { User } from "../components/user"
 import { Backbtn } from "../components/BackBtn"
 import { RepoProps } from "../types/repo"
 import { Loader } from "../components/loader"
