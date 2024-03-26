@@ -1,30 +1,22 @@
-# React + TypeScript + Vite
+# Github Finder
+Esse projeto é uma busca de usuários  usando a API do github, na qual ao pesquisar o nome do usuário irá aparecer quem foi pesquisado
+![image](https://github.com/DevKayoS/github_finder/assets/157029608/5ced75e3-a926-4fec-bd41-cc80ddf57234)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 
+E irá aparecer da seguinte forma os dados do usuário pesquisado -> Ao clicar em ver melhores projetos será redirecionado para a rota de repositórios do usuário pesquisado.
+![image](https://github.com/DevKayoS/github_finder/assets/157029608/bbf0ebb8-724d-440b-abd5-5097f20552f8)
 
-Currently, two official plugins are available:
+##
+Será aberto essa lista dos 5 melhores repositórios do usuário pesquisado, porém foi feito uma função para colocar em ordem descrescente por números de estrelas dadas no repositório, ou seja, irá  aparecer os 5 repositórios com mais estrelas do usuário.
+![image](https://github.com/DevKayoS/github_finder/assets/157029608/58da6ab0-a128-45d5-bdfb-36bd4cddae3d)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##
+## Tecnologias:
+  * React;
+  * Typescript;
+  * Tailwindcss;
+  * React-router-dom;
+  * API do github pública.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
